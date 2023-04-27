@@ -3,7 +3,7 @@
 ### config
 - The user-defined parameters needed for the experimental setup are stored.
   - e.g., data path, epoch, batch size, metrics, 
-- File name: fixed\_config\_{model}.config
+- File name: fixed\_config\_{model_name}.config
 
 ### dataset
 - **collections**
