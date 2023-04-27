@@ -42,3 +42,6 @@
 
 ### Model.py
 - The code contains our model architecture.
+- The arguments are as follows:
+  - dataset: the name of dataset (e.g., 'azuki', 'bayc', 'coolcats')
+  - item_cut: the minimum number of interactions for an item to be used
