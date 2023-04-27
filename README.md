@@ -37,7 +37,7 @@
 ### Create_config.ipynb
 - Code to create the configurations in the format required by Recbole.
 
-### main.py (MAIN)
+### **main.py**
 - The code to run experiments using our model.
 
 ### Model.py
