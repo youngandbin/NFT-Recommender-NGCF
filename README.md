@@ -3,20 +3,12 @@
 ### config
 - The user-defined parameters needed for the experimental setup are stored.
   - e.g., data path, epoch, batch size, metrics, 
-- File name: {model}\_{collection}\_{item_feature}.config
+- File name: fixed\_config\_{model}.config
 
 ### dataset
-- benchmarks
-  - The benchmark dataset is included.
-- **collections (MAIN)**
+- **collections**
   - For each collection, there are .inter and .itememb files included.
   - The .inter file represents user-item interactions, and the .itememb file represents item embeddings.
-- transactions
-  - For each collection, user-item interactions are included.
-  - It is used for creating the .inter file.
-- item_features
-  - For each collection, image, text, and price features are included.
-  - It is used to create the .itememb file.
 
 ### hyper
 - Used for hyperparameter optimization.
@@ -33,7 +25,7 @@
 - The results of the performance evaluation on the test set are saved in the result folder.
 - File name: {model}-{dataset}.csv
 
-### runfile
+### run.sh
 - Contains shell scripts that can be used to run the main file.
 
 ### saved
