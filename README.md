@@ -41,4 +41,4 @@
 - The code to run experiments using our model.
 
 ### Model.py
-- The code contains our model.
+- The code contains our model architecture.
